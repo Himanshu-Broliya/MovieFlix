@@ -1,7 +1,7 @@
 
 # MovieFlix
 
-A brief description of what this project does and who it's for
+It is a demo assignment project for a job application.
 
 
 ## Demo
