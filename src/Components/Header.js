@@ -1,8 +1,7 @@
 import React, { useState } from 'react'
 import { CheckBox, FilterMovies } from './CheckBox';
 import { movieData } from '../Constant/MovieData';
-import { Link } from 'react-router-dom';
-
+import  {Logo}  from '../assets';
 export const Header = () => {
 
   const [searchValue, setSearchValue] = useState('');
@@ -17,7 +16,7 @@ export const Header = () => {
   return (
     <div className='flex items-center justify-between fixed w-full pl-4 pr-3 lg:px-28 bg-gray-800 text-white py-3 '>
       <div>
-        <h1 className='text-lg md:text-2xl font-bold font-serif'>MovieFlix</h1>
+        <img src={Logo} className='h-10 '/>
       </div>
 
       <div className='absolute left-0 top-[3.7rem] w-full md:hidden'>
