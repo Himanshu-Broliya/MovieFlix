@@ -6,7 +6,7 @@ It is a demo assignment project for a job application.
 
 ## Demo
 
-Insert gif or link to demo
+[Visit by clicking](https://movie-flix-gamma.vercel.app/)
 
 
 ## Deployment
